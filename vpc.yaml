@@ -17,3 +17,13 @@ Resources:
       Tags:
         - Key: type
           Value: private
+  
+    PrivateSubnet:
+    Type: AWS::EC2::Subnet
+    Properties:
+      AvailabilityZone: 1b
+      VpcId: !Ref MyVPC
+      CidrBlock: 10.10.100.20/24
+      Tags:
+        - Key: type
+          Value: private
