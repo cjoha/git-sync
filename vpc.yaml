@@ -16,7 +16,7 @@ Resources:
       CidrBlock: 10.10.100.10/24
       Tags:
         - Key: type
-          Value: private
+          Value: private-environment
   
     PrivateSubnet:
     Type: AWS::EC2::Subnet
@@ -26,4 +26,4 @@ Resources:
       CidrBlock: 10.10.100.20/24
       Tags:
         - Key: type
-          Value: private
+          Value: private-environment
