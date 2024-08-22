@@ -21,7 +21,7 @@ Resources:
     PrivateSubnet:
     Type: AWS::EC2::Subnet
     Properties:
-      AvailabilityZone: 1b
+      AvailabilityZone: 1c
       VpcId: !Ref MyVPC
       CidrBlock: 10.10.100.20/24
       Tags:
